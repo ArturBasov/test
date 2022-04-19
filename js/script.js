@@ -4,7 +4,7 @@ let numberOfFilms;
 
 function start() {
   while (true) {
-    numberOfFilms = +prompt("How much films have you watched yet?", "");
+    numberOfFilms = +prompt("How many films have you watched yet?", "");
     if (
       typeof numberOfFilms == "number" &&
       numberOfFilms >= 0 &&
